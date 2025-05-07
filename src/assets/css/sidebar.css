@@ -1,0 +1,36 @@
+.sidebar {
+    width: 220px;
+    background-color: #f0f0f0;
+}
+
+.sidebar-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 20px;
+
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-item {
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+
+.sidebar-list .sidebar-item:first-child {
+    background: #2F9DCB;
+    border: unset;
+    color: white;
+    border-radius: 5px;
+}

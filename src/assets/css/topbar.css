@@ -1,0 +1,41 @@
+.topbar {
+    height: 50px;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.topbar-buttons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    .topbar-btn {
+        padding: 6px 12px;
+        border: unset;
+        cursor: pointer;
+        background: unset;
+    }
+}
+
+.topbar-buttons .topbar-btn:first-child {
+    background: #2F9DCB;
+    border: unset;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.topbar-profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
